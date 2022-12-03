@@ -1,4 +1,6 @@
 {
+    "name": "@ivanmaxlogiudice/eslint-config-monorepo",
+    "version": "1.0.1",
     "private": true,
     "homepage": "https://ivanmaxlogiudice.com/",
     "scripts": {
@@ -7,11 +9,7 @@
     },
     "devDependencies": {
         "@ivanmaxlogiudice/eslint-config": "*",
-        "eslint": "^8.28.0",
-        "lerna": "^6.1.0"
-    },
-    "dependencies": {
-        "bumpp": "^8.2.1"
-    },
-    "version": "1.0.0"
+        "bumpp": "^8.2.1",
+        "eslint": "^8.29.0"
+    }
 }

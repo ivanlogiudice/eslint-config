@@ -1,6 +1,6 @@
 {
     "name": "@ivanmaxlogiudice/eslint-config-ts",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Personal ESLint configuration for TS",
     "homepage": "https://ivanmaxlogiudice.com/",
     "keywords": [
@@ -31,14 +31,14 @@
         "eslint": ">=8.28.0",
         "typescript": ">=4.9.3"
     },
-    "devDependencies": {
-        "eslint": "^8.29.0"
-    },
     "dependencies": {
-        "@ivanmaxlogiudice/eslint-config": "workspace:*",
+        "@ivanmaxlogiudice/eslint-config": "workspace:1.0.0",
         "@typescript-eslint/eslint-plugin": "^5.45.0",
         "@typescript-eslint/parser": "^5.45.0",
-        "eslint-plugin-unused-imports": "^2.0.0",
+        "eslint-plugin-unused-imports": "^2.0.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.29.0",
         "typescript": "^4.9.3"
     }
 }

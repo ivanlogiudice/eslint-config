@@ -1,6 +1,6 @@
 {
     "name": "@ivanmaxlogiudice/eslint-config-vue",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Personal ESLint configuration for Vue 3",
     "homepage": "https://ivanmaxlogiudice.com/",
     "keywords": [
@@ -33,13 +33,13 @@
         "eslint": ">=8.28.0",
         "typescript": ">=4.9.3"
     },
+    "dependencies": {
+        "@ivanmaxlogiudice/eslint-config-ts": "workspace:1.0.0",
+        "eslint-plugin-vue": "^9.8.0",
+        "vue-eslint-parser": "^9.1.0"
+    },
     "devDependencies": {
         "eslint": "^8.29.0",
         "typescript": "^4.9.3"
-    },
-    "dependencies": {
-        "@ivanmaxlogiudice/eslint-config-ts": "workspace:*",
-        "eslint-plugin-vue": "^9.8.0",
-        "vue-eslint-parser": "^9.1.0"
     }
 }
