@@ -4,11 +4,9 @@ importers:
 
   .:
     specifiers:
-      '@ivanmaxlogiudice/eslint-config': '*'
       bumpp: ^8.2.1
       eslint: ^8.29.0
     devDependencies:
-      '@ivanmaxlogiudice/eslint-config': link:packages/eslint-config
       bumpp: 8.2.1
       eslint: 8.29.0
 
